@@ -1,3 +1,4 @@
+"use client"
 import FooterComponent from '@/components/FooterComponent'
 import './styles.scss'
 import HeaderComponent from '@/components/HeaderComponent'
