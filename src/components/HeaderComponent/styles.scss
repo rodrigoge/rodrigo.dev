@@ -11,13 +11,13 @@ header {
 
     img {
         width: 16px;
-        margin: 0 160px;
+        margin: 0 14%;
         cursor: pointer;
     }
 
     nav {
         display: flex;
-        margin: 0 160px;
+        margin: 0 14%;
 
         ul {
             font-size: 13px;
@@ -124,6 +124,22 @@ header {
                 .three {
                     transform: rotate(-45deg) translate(3px, -3px);
                     background-color: $white-100;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    header.show-menu {
+        nav {
+            ul {
+                display: flex;
+
+                li {
+                    a {
+                        font-size: 18px;
+                    }
                 }
             }
         }

@@ -13,13 +13,13 @@ footer {
         display: flex;
         align-items: center;
         gap: 6px;
-        margin: 10px 160px;
+        margin: 10px 14%;
         font-size: 14px;
         font-weight: 100;
     }
 
     .social-media-container {
-        margin: 10px 160px;
+        margin: 10px 14%;
         display: flex;
         align-items: center;
         gap: 12px;
@@ -32,6 +32,18 @@ footer {
 
         a:hover {
             color: $orange-700;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .copyright-container {
+            display: none;
         }
     }
 }
