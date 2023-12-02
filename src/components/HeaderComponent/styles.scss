@@ -9,10 +9,13 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    img {
-        width: 16px;
+    .logo-container {
         margin: 0 14%;
-        cursor: pointer;
+
+        img {
+            width: 16px;
+            cursor: pointer;
+        }
     }
 
     nav {

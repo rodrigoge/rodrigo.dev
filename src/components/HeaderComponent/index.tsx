@@ -14,15 +14,19 @@ export default function HeaderComponent() {
 
     return (
         <header className={`${isMenuActive ? 'show-menu' : 'hidden-menu'}`}>
-            <Image
-                src={logo}
-                alt='Logo image'
-            />
+            <Link
+                href="/"
+                className='logo-container'>
+                <Image
+                    src={logo}
+                    alt='Logo image'
+                />
+            </Link>
 
             <nav>
                 <ul>
                     <li>
-                        <Link href=''>Sobre mim</Link>
+                        <Link href='/about'>Sobre mim</Link>
                     </li>
                 </ul>
                 <ul>
