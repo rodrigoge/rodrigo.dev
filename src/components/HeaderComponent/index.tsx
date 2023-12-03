@@ -1,7 +1,7 @@
 import './styles.scss'
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '../../app/assets/logo.svg';
+import logo from '../../assets/logo.svg';
 import { useState } from 'react';
 
 export default function HeaderComponent() {
@@ -38,7 +38,7 @@ export default function HeaderComponent() {
                 </ul>
                 <ul>
                     <li>
-                        <Link href=''>
+                        <Link href='/contact'>
                             Contato
                         </Link>
                     </li>

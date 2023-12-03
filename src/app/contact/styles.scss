@@ -1,0 +1,83 @@
+@import '../variables.module.scss';
+
+html,
+body {
+    background-color: $black-900;
+    color: $white-100;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 120px 14% 0 14%;
+
+    .link-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+        margin-top: 32px;
+
+        .social-media-link {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            text-decoration: none;
+            color: $white-100;
+            gap: 8px;
+            transition: 0.3s;
+
+            span {
+                color: $white-100;
+                transition: 0.3s;
+            }
+        }
+
+        .social-media-link:hover {
+            color: $orange-700;
+
+            span {
+                color: $orange-700;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .contact-summary-container {
+            text-align: center;
+        }
+
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            margin-top: 32px;
+
+            .social-media-link {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                text-decoration: none;
+                color: $white-100;
+                gap: 8px;
+                transition: 0.3s;
+
+                span {
+                    color: $white-100;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}

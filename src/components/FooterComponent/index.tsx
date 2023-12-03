@@ -29,7 +29,7 @@ export default function FooterComponent() {
                     <Github size={18} />
                 </Link>
                 <Link
-                    href='https://www.linkedin.com/in/rodrigogouveiae/'
+                    href='www.linkedin.com/in/rgestevao'
                     target='_blank'
                 >
                     <Linkedin size={18} />

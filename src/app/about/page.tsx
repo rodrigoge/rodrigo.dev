@@ -2,11 +2,11 @@
 import FooterComponent from "@/components/FooterComponent";
 import HeaderComponent from "@/components/HeaderComponent";
 import "./styles.scss"
-import avatar from '../assets/avatar.png'
+import avatar from '../../assets/avatar.png'
 import Image from "next/image";
 import { Download } from "lucide-react";
 import Link from "next/link";
-import pdfFile from '../assets/curriculum.pdf'
+import pdfFile from '../../assets/curriculum.pdf'
 import ExperienceComponent from "@/components/ExperienceComponent";
 
 export default function About() {
