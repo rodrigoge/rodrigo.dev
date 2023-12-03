@@ -1,7 +1,6 @@
-import { ExperienceType } from '@/interfaces/ExperienceType'
+import { ExperienceType } from '../../types/ExperienceType'
 import './styles.scss'
 import Link from 'next/link'
-import { Dot } from 'lucide-react'
 
 export default function ExperienceComponent({
     responsibility,
