@@ -1,4 +1,4 @@
-import { ExperienceProps } from '@/interfaces/ExperienceProps'
+import { ExperienceType } from '@/interfaces/ExperienceType'
 import './styles.scss'
 import Link from 'next/link'
 import { Dot } from 'lucide-react'
@@ -10,7 +10,7 @@ export default function ExperienceComponent({
     location,
     startAtCompany,
     endAtCompany
-}: ExperienceProps) {
+}: ExperienceType) {
     return (
         <div className='experience-container'>
             <h3>{responsibility}</h3>

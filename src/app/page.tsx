@@ -14,7 +14,7 @@ export default function Home() {
         <span className='office-container'>Fullstack Software Developer</span>
         <Link
           className='call-to-action-navigation'
-          href=''>
+          href='/about'>
           Conheça um pouco mais
         </Link>
       </div>

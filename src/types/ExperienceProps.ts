@@ -1,4 +1,4 @@
-export interface ExperienceProps {
+export type ExperienceType = {
     responsibility: string;
     company: string;
     companyLink: string;

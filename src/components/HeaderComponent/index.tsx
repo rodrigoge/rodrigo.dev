@@ -31,7 +31,7 @@ export default function HeaderComponent() {
                 </ul>
                 <ul>
                     <li>
-                        <Link href=''>
+                        <Link href='/projects'>
                             Projetos
                         </Link>
                     </li>

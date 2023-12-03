@@ -1,0 +1,88 @@
+@import '../../app/variables.module.scss';
+
+.card-container {
+    width: 80%;
+    height: 180px;
+    background-color: $black-700;
+    border-radius: 6px;
+    border: 1px solid $black-700;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    padding: 36px;
+    color: $white-100;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+
+    h3 {
+        margin: 0;
+        font-weight: 600;
+    }
+
+    .card-description-container {
+        text-align: justify;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .footer-card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .tag-license-container {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 16px;
+            font-weight: 300;
+        }
+
+        .card-link-container {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: $white-100;
+            font-weight: 500;
+            gap: 8px;
+        }
+    }
+}
+
+.card-container:hover {
+    border: 1px solid $orange-700;
+}
+
+@media (max-width: 800px) {
+    .card-container {
+        width: 260px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 16px;
+        font-size: 12px;
+
+        .card-description-container {
+            text-align: justify;
+            font-size: 10px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .card-container {
+        width: 200px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 6px;
+        font-size: 12px;
+    }
+}
