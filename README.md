@@ -1,4 +1,4 @@
-## 👨🏽‍💻 My personal website
+## 👨🏽‍💻 Rodrigo Gouveia Dev - My personal website
 An open-source dedicated by my portfolio web, describing some informations about me and my experiences in my career.
 
 ### 🛠️ Tools
@@ -9,7 +9,9 @@ An open-source dedicated by my portfolio web, describing some informations about
 - Typescript
 - Next.js (v14.0.2)
 - Sass
+- GitHub API
 - ES Lint
+- Vercel
 
 #### Code editor
 - Visual Studio Code
