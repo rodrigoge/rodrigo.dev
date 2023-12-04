@@ -46,7 +46,7 @@ export default function About() {
                         Também sou apaixonado por construir
                         <Link
                             className="link-content"
-                            href=""
+                            href="/projects"
                         >
                             projetos
                         </Link>
